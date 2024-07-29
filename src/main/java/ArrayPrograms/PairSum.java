@@ -10,8 +10,8 @@ number = 9
  */
 public class PairSum {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 7, 6, -9, 11};
-        int targetSum = 10;
+        int[] arr = {1, 0, 7, 0, -9, 11};
+        int targetSum = 0;
         if(hasPairWithSumOptimised(arr, targetSum)){
             System.out.println("Yes");
         }else{
