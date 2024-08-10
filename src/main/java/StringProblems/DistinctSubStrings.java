@@ -26,3 +26,12 @@ public class DistinctSubStrings {
         distinctSubstrings.forEach(System.out::println);
     }
 }
+
+/*
+Total Time Complexity
+Considering the operations inside the loops and the loops themselves,
+the dominant factor in the time complexity is the nested loops, each contributing
+𝑂(𝑛2) and the substring operation contributing 𝑂(𝑛) on average:
+O(n2) (iterations)*O(n) (substring extraction) = o(n3)
+Thus, the overall time complexity of the program is 𝑂(𝑛3).
+ */

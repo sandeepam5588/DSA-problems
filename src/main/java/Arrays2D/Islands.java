@@ -42,3 +42,5 @@ public class Islands {
         dfs(grid, i, j-1);//left
     }
 }
+
+//Time complexity = O(MxN)
